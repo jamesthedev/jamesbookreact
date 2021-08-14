@@ -6,8 +6,8 @@ function Login(props) {
             <div className="jbLogo">jamesbook</div>
             <div id="loginFrmWrapper">
                 <form id="loginFrm" onSubmit={ props.loginFx }>
-                    <input type="email" placeholder="Email" />
-                    <input type="password" placeholder="Password" />
+                    <input type="email" placeholder="Email" value="james_the_dev@outlook.com"/>
+                    <input type="password" placeholder="Password" value="password123456789" />
                     <button type="submit">Log In</button>
                 </form>
             </div>
